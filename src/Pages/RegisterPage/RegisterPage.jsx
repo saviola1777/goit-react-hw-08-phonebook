@@ -7,7 +7,8 @@ import { signupApi } from "Redux/Auth/auth-operations"
 const RegisterPage = ()=>{
    const dispath = useDispatch ()
    const handleSignup = (data)=>{
-   dispath(signupApi (data))
+   dispath(signupApi(data))
+  
    }
 
    return(
