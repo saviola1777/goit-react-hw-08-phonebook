@@ -1,0 +1,55 @@
+
+
+.wrapperHeader{
+  width: auto;
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  height:auto;
+  border: 1px solid darkgrey;
+  padding: 15px;
+  background: linear-gradient(to right, #000000 0%, #a9a9a9 50%, #979797 100%);
+  
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+.link{
+  width: auto;
+  display: flex;
+  gap: 10px;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: aliceblue; 
+}
+
+.span{
+  width: 30px;
+  height: 30px;
+  background-image: url(/public/Image/book-g9b06b40fb_640.png);
+  background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrapperLogin{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  
+}
+.register{
+  color: aliceblue;
+ 
+  font-size: 16px;
+  padding: 0 10px;
+  border-right-style: double;
+}
+.login{
+  color: aliceblue;
+  font-size: 16px;
+  padding: 0 10px;
+}
