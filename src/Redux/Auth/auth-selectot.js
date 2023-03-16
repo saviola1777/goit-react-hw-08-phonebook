@@ -1,0 +1,1 @@
+export const isUserLogin = store=>store.auth.isLoading

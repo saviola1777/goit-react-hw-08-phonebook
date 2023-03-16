@@ -1,11 +1,14 @@
 .button{
-   background-color: aliceblue;
    border: 1px solid;
    padding: 5px 10px;
    cursor: pointer;
    border-radius: 5px;
+   width: -moz-fit-content;
    width: fit-content;
    margin: auto;
+   background: linear-gradient(45deg,#565454,transparent);
+   box-shadow: 5px 5px 5px 0 #000, inset 4px 4px 15px 0 #000, 5px 5px 15px 5px transparent;
+   color: #e3d1c9
   
 }
    

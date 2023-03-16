@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize; 
 
 body {
   font-family: -apple-system, BlinkMacSystemFont,cursive, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -34,3 +34,9 @@ p{
 a{
   text-decoration: none;
 }
+/* button{
+
+  background: linear-gradient(45deg,#565454,transparent);
+  box-shadow: 5px 5px 5px 0 #000, inset 4px 4px 15px 0 #000, 5px 5px 15px 5px transparent;
+  color: #e3d1c9
+} */

@@ -15,10 +15,10 @@ console.log(state)
 
 return(
    <form onSubmit={handleSubmit} className={css.form}>
-      <TextField handleChange={handleChange} {...field.name}/>
-      <TextField handleChange={handleChange}  {...field.email}/>
-      <TextField handleChange={handleChange} {...field.password}/>
-      <Button>Register</Button>
+      <TextField  handleChange={handleChange} {...field.name}/>
+      <TextField  handleChange={handleChange}  {...field.email}/>
+      <TextField  handleChange={handleChange} {...field.password}/>
+      <Button type="submit">Register</Button>
    </form>
 )
 }
