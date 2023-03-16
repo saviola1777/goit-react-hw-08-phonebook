@@ -41,7 +41,7 @@ builder
    store.loading = false;
    store.user = payload.user;
    store.token = payload.token;
-   store.isLogin = true;
+   store.isLoading=true
  })
  .addCase(fetchLogin.rejected, (store, { payload }) => {
    store.loading = false;

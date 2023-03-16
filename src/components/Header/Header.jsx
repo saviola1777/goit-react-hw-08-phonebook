@@ -2,7 +2,7 @@
 import css from 'components/Header/Header.module.css'
 // import NavbarAuth from 'components/Navigation/NavbarAuth/NavbarAuth'
 import { NavLink, Link } from "react-router-dom";
-import { isUserLogin , getUser} from 'Redux/Auth/auth-selectot';
+import { isUserLogin ,  getUser} from 'Redux/Auth/auth-selectot';
 import { useSelector } from 'react-redux';
 
 
