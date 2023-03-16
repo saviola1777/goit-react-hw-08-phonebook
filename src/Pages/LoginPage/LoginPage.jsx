@@ -1,7 +1,7 @@
 import css from 'Pages/LoginPage/LoginPage.module.css'
 import LoginForm from "../../modules/RegisterLogin/LoginForm"
 
-import { Navigate } from "react-router-dom";            // це коипонент який використовується прри переадресації
+import { Navigate } from "react-router-dom";            // це компонент який використовується прри переадресації
 
 import { isUserLogin } from 'Redux/Auth/auth-selectot';
 
