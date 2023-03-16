@@ -5,3 +5,11 @@ align-items: center;
 gap: 10px;
 
 }
+.input{
+   border-radius: 5px;
+}
+.label{
+font-family:serif;
+font-weight: 700;
+    color: beige;
+}

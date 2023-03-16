@@ -8,3 +8,7 @@ const authInstance = axios.create({
  export const signupPost =  (data) =>{
    return  authInstance.post("/users/signup" , data)
  }
+
+ export const login =   (data) =>{
+  return  authInstance.post("/users/login" , data)
+}

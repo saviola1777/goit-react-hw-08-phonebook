@@ -14,12 +14,11 @@ const RegisterPage = ()=>{
   
    const handleSignup = (data)=>{
    dispath(signupApi(data))
+   }
 
    if(isLogin){                //якщо ллюдина зареєстровання isLoading=true то перекидає на сторінку яку я пишу в навігації
-return <Navigate to="/"/>       
-   }
-  
-   }
+      return <Navigate to="/"/>       
+         }
 
    return(
       <div className={css.wrapperRegisterPage}> 

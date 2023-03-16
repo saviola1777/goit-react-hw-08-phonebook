@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import  {signupApi} from '../Auth/auth-operations'
+import  {signupApi , fetchLogin } from '../Auth/auth-operations'
 
 
 const initialState = {
@@ -32,6 +32,21 @@ builder
    store.loading=false
    store.error=payload
 })
+.addCase(fetchLogin.pending, store => {
+   store.loading = true;
+   store.error = null;
+ })
+ .addCase(fetchLogin.fulfilled, (store, { payload }) => {
+   
+   store.loading = false;
+   store.user = payload.user;
+   store.token = payload.token;
+   store.isLogin = true;
+ })
+ .addCase(fetchLogin.rejected, (store, { payload }) => {
+   store.loading = false;
+   store.error = payload;
+ })
    }
 })
 

@@ -1,11 +1,16 @@
-import React from 'react';
-import { Suspense } from 'react';
+
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+
+
+// const HomePage = lazy(()=>import('Pages/HomePage/HomePage'))
+// const RegisterPage = lazy(()=>import('Pages/RegisterPage/RegisterPage'))
+// const LoginPage = lazy(()=>import('Pages/LoginPage/LoginPage'))
+// const Header = lazy(()=>import('components/Header/Header'))
 
 import HomePage from 'Pages/HomePage/HomePage'
 import RegisterPage from 'Pages/RegisterPage/RegisterPage'
 import LoginPage from 'Pages/LoginPage/LoginPage';
-
 import Header from 'components/Header/Header'
 
 const App = () => {
