@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchCurrent } from 'Redux/Auth/auth-operations';
 
-const Authayout = ({children}) =>{
+const AuthLayout = ({children}) =>{
    const dispatch = useDispatch()
    useEffect(()=>{
      dispatch(fetchCurrent())
@@ -12,4 +12,4 @@ const Authayout = ({children}) =>{
    )
 }
 
-export default Authayout
+export default AuthLayout
