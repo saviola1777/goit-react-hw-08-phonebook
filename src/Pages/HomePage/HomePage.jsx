@@ -1,10 +1,20 @@
-import css from 'Pages/HomePage/HomePage.module.css'
+
+import Cointeiner from 'components/Cointeiner/Cointeiner';
+import ContactForm from 'components/ContactForm/ContactForm';
+import ContactList from 'components/ContactList/ContactList';
+import Filter from 'components/Filter/Filter';
 
 const HomePage = () => {
 
   return (
 
-<div className={css.wrapperImg}><p>Phonebook</p></div>
+<Cointeiner>
+      <h2>Phonebook</h2>
+      <ContactForm />
+      <h2>Contacts</h2>
+      <Filter  />
+      <ContactList />
+    </Cointeiner>
 
   )
 }
