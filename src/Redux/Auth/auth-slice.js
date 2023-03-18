@@ -60,6 +60,7 @@ builder
  .addCase(fetchCurrent.rejected, (store, { payload }) => {
    store.loading = false;
    store.error = payload;
+   store.token = '';
  })
  .addCase(fetchLogout.pending, store => {
    store.loading = true;
