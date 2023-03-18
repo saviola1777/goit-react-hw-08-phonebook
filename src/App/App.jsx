@@ -15,8 +15,9 @@ const App = () => {
 
   return (
     <Suspense fallback={null}>
-      <AuthLayout>
+      
         <Header />
+        <AuthLayout>
         <Routes>
           <Route element={<PrivateRoute/>}>
           <Route path="/" element={<HomePage />} />
